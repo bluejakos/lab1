@@ -23,3 +23,5 @@ notepad commands.txt
 git add -A
 git commit -m "commands commit"
 git push -u origin allcommands
+git checkout master
+git rebase allcommands

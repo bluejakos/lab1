@@ -1,0 +1,25 @@
+mkdir lab1
+cd lab1
+notepad l1.txt
+git status
+git add -A
+notepad l1.txt
+git status
+git remote add origin https://github.com/bluejakos/lab1.git
+git push -u origin master
+git reset l1.txt
+git branch logging
+git checkout logging
+notepad log.txt
+git log
+git add -A
+git comming -m "log commit"
+git push -u origin logging
+git checkout master
+git merge logging
+git branch allcommands
+git checkout allcommands
+notepad commands.txt
+git add -A
+git commit -m "commands commit"
+git push -u origin allcommands

@@ -1,0 +1,5 @@
+commit bb5ff9c4d3e612266c912a713484478639964350 (HEAD -> logging, origin/master, master)
+Author: unknown <martin.ivanov@students.finki.ukim.mk>
+Date:   Fri Mar 23 15:51:17 2018 +0100
+
+    Initial commit
